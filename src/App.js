@@ -4,7 +4,7 @@ import { Database, Search, Table, ChevronRight, CheckCircle, XCircle, Loader, Co
 const API_URL = 'http://localhost:5000/api';
 
 // 테스트 모드 활성화 (true로 설정하면 서버 없이 작동)
-const TEST_MODE = true;
+const TEST_MODE = false;
 
 // 테스트용 Mock 데이터
 const MOCK_DATA = {
